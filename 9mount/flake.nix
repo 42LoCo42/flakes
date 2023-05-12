@@ -41,6 +41,7 @@
             "9umount"
             "9bind"
           ]);
+          environment.systemPackages = [ pkg ];
         };
     };
 }
